@@ -17,7 +17,7 @@ main {
     margin: 20px;
     margin-top: 18vh;
     border-radius: 20px;
-    box-shadow: 0 10px 25px 0 rgba(16, 18, 24, 0.233);
+    box-shadow: 0 10px 15px 0 rgba(41, 45, 58, 0.021);
 }
 
 main > p {
@@ -46,7 +46,7 @@ main > img {
     margin-top: 18vh;
     border-radius: 20px;
     text-align: center;
-    box-shadow: 0 10px 25px 0 rgba(16, 18, 24, 0.233);
+    box-shadow: 0 10px 15px 0 rgba(41, 45, 58, 0.021);
 }
 
 .submit_screen > p {
