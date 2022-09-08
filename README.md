@@ -28,11 +28,11 @@ Users should be able to:
 
 ### Screenshot
 
-![](./screenshot.jpg)
+![A screenshot of my interactive rating component](./screenshot.png)
 
 ### Links
 
-
+https://nachtwurst.github.io/interactive-rating-component/
 
 ## My process
 
@@ -54,4 +54,4 @@ I'd like to learn more JavaScript, and its best practices.
 
 ## Author
 
-- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/yourusername)
+- Frontend Mentor - [@nachtwurst](https://www.frontendmentor.io/profile/nachtwurst)
