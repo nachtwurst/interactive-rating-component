@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="stylesheet" href="style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Overpass:wght@400;700&display=swap" rel="stylesheet">
+  
+  <title>Frontend Mentor | Interactive rating component</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+  </style>
+</head>
+<body>
+
+  <main id="rating_component">
+    <!-- Rating state start -->
+    <img class='star_img' src="images/icon-star.svg" alt="An icon of a star">
+    <h1>
+      How did we do?
+    </h1>
+
+    <p>
+      Please let us know how we did with your support request. All feedback is appreciated 
+      to help us improve our offering!
+    </p>
+
+    <ol>
+      <li><button class="b1" onclick="getClickedButton(this)">1</button></li>
+      <li><button class="b2" onclick="getClickedButton(this)">2</button></li>
+      <li><button class="b3" onclick="getClickedButton(this)">3</button></li>
+      <li><button class="b4" onclick="getClickedButton(this)">4</button></li>
+      <li><button class="b5" onclick="getClickedButton(this)">5</button></li>
+    </ol>
+
+    <button class="submit_button" onclick="ratingSubmit()">
+      SUBMIT
+    </button>
+  </main>
+
+  <div class="submit_screen" id="sub_screen">
+    <img src="images/illustration-thank-you.svg" alt="A simple illustration of a poll">
+    <p class="rate_result" id="rate_num">You selected 5 out of 5</p>
+    <h1>Thank you!</h1>
+    <p class="thank_you_text">
+      We appreciate you taking the time to give a rating. If you ever need more support, 
+    don’t hesitate to get in touch!
+    </p>
+  </div>
+
+  <script src="index.js"></script>
+</body>
+</html>
